@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 15px;
+    margin: 0 5%;
+}
+.middle ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    padding: 20px;    
+}
+.middle ul li{
+    list-style: none;
+}
+.middle ul li a{
+    text-decoration: none;
+}
+.btn{
+    background-color: #1D4ED8;
+    padding: 12px 24px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+
