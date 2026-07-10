@@ -115,5 +115,117 @@ header{
     border-radius: 18px;
 
 }
+.all-plan{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 20px;
+    margin-top: 30px;
+}
+.plan-info li::marker{
+    color: #2563EB;
+}
+.text{
+    margin-top: 110px;
+    text-align: center;
+}
+.text h1{
+    color: #0D1B2A;
+    font-size: 48px; ;
+}
+.plan{
+    border-radius: 20px;
+    box-shadow: 0 0 0 1px #E5E7EB;
+    padding: 25px 25px;
+}
+.try{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
-
+}
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+.try li{
+    color: #333333;
+    font-size: 14px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #E5E7EB;
+}
+.second-btn{
+    background-color: white;
+    padding: 12px 75px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px bold ;
+    border-color: #2563EB;
+    font-size: 14px;
+    color: #2563EB;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.third-btn{
+    background-color: white;
+    padding: 12px 75px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px bold ;
+    border-color: #0D1B2A;
+    font-size: 14px;
+    color: #0D1B2A;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.try .btn{
+    padding: 12px 75px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px bold ;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.plan-info{
+    margin: 0 10%;
+}
+.all-plan .second-btn,
+.third-btn,
+.btn {
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.position-down{
+    color: #888888;
+    font-size: 13px;
+}
+.position-up{
+    color: #888888;
+    font-size: 13px;
+}
+.price{
+    font-size: 44px;
+}
+.Just{
+    color: #575757;
+    font-size: 16px; 
+}
+.plan-two{
+    background-color: #0D1B2A;
+    color: white;
+}
+.new-color{
+    color: #93C5FD;
+}
+.plan-two ul li{
+    color: rgb(204, 201, 201);
+}
