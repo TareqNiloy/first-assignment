@@ -24,7 +24,7 @@ nav{
 .middle ul li a{
     text-decoration: none;
     color: #575757;
-    font-size: 16;
+    font-size: 16px;
 }
 .btn{
     background-color: #1D4ED8;
@@ -57,17 +57,63 @@ header{
     font-weight: bold;
 }
 .header-content p{
-    font-size: 22;
+    font-size: 22px;
 }
 .header-content button{
     align-items: center;
-    width: 282;
-    height: 74;
+    width: 282px;
+    height: 74px;
     padding: 22px 10px;
     margin: 45%;
     margin-top: 300px;
     font-size: 18px;
 }
+.speakers h1{
+    text-align: center;
+    color: #000102;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+.all-speakers img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    
+}
 
+.all-speakers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    margin: 0px 8%;
+    margin-left: 150px;
+}
+.blue-p{
+    color: #2563EB;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+
+.head-mts{
+    color: #000102;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.light{
+    color: #575757;
+    margin-bottom: 25px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+.individual-speaker{
+    border: 1px solid #E5E7EB;
+    border-radius: 18px;
+
+}
 
 
