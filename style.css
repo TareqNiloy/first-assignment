@@ -138,6 +138,7 @@ header{
     border-radius: 20px;
     box-shadow: 0 0 0 1px #E5E7EB;
     padding: 25px 25px;
+    margin-bottom: 40px;
 }
 .try{
     display: flex;
@@ -228,4 +229,77 @@ hr{
 }
 .plan-two ul li{
     color: rgb(204, 201, 201);
+}
+/* why attend devconf */
+.reason{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 24px;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin: 25px 5%;
+    border-radius: 16px;
+    margin-left: 100px;
+}
+.button-type{
+    color: #4F46E5;
+    background-color: #EEF2FF;
+    font-size: 20px;
+    border: 1px solid #93C5FD;
+    border-radius: 30px;
+    padding: 3px;
+    margin-top: 60px;
+    align-items: center;
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+.about h4{
+    font-size: 38px;
+    color: #0F172A;
+}
+.text-type{
+    font-size: 17px;
+    color: #475569;
+    margin-bottom: 40px;
+}
+.icons{
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 28px;
+}
+.why-attend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F5F9;
+    padding: 20px; 
+}
+span{
+    font-size: 32px;
+    color: #2563EB;
+    padding: 10px;
+    align-items: center;
+    background-color: #F4F7FF;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.icons h4{
+    font-size: 20px;
+    color: #1A1A1A;
+    align-items: center;
+    text-align: center;
+    margin: 15px auto;
+    padding: 10px
+}
+.icons p{
+    font-size: 14px;
+    color: #595959;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
 }
